@@ -1,0 +1,103 @@
+.giorgi{width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 30px
+   ;
+    
+    }
+    .giorgi1{width: 150px;
+    height:150px;
+    background-color: blue;
+    border-radius: 15px;
+    margin-top: 30px;
+   
+        
+    }
+    .giorgi2{width: 150px;
+    height: 150px;
+    background-color:brown;
+    border-radius: 15px;
+    margin-top: 30px;
+   
+    }
+    
+    .giorgi3{width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    margin-top: 30px;
+    
+     }
+    
+    
+    .main{display: flex; justify-content: space-between;}
+
+    .giorgi4{width: 150px;
+        height: 150px;
+        background-color: rosybrown;
+        border-radius: 15px;
+        margin-top: 30px
+       ;
+        
+        }
+        .giorgi5{width: 150px;
+        height:150px;
+        background-color: yellowgreen;
+        border-radius: 15px;
+        margin-top: 30px;
+       
+            
+        }
+        .giorgi6{width: 150px;
+        height: 150px;
+        background-color:yellow;
+        border-radius: 15px;
+        margin-top: 30px;
+       
+        }
+        
+        .giorgi7{width: 150px;
+        height: 150px;
+        background-color: pink;
+        border-radius: 15px;
+        margin-top: 30px;
+        
+         }
+        
+        
+        .main1{display: flex; justify-content: space-between;}
+    
+
+
+.gio1 img{width: 500px;
+height: 500px;}
+
+
+
+
+.gio2{padding: 50px;}
+.gio2{font-size: 20px;
+color: brown;
+font-weight: 500;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 30px; justify-content: center;}
+
+.gio{display: flex; margin-top: 70px;}
+
+
+.gioo1 img{width: 500px;
+    height: 500px;}
+    
+    
+    
+    
+    .gioo2{padding: 50px;}
+    .gioo2{font-size: 20px;
+    color:rebeccapurple;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px; justify-content: center;}
+    
+    .gioo{display: flex; margin-top: 70px;;}
+    
