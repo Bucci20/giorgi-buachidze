@@ -135,15 +135,13 @@ export class MyElement extends LitElement {
       })
       .then((tweets) => {
         this.updateTweets(tweets);
-        alert('ოპერაცია წარმატებით შესრულდა')
+        
       })
       .catch((error)=> {
         alert('ტექნიკური ხარვეზი', error)
       })
 
-    } else {
-      alert('ველების შევსება აუცილებელია')
-    }
+    } 
   }
 
   DeleteTweet(index){
