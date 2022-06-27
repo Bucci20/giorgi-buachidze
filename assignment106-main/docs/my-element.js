@@ -108,32 +108,29 @@ export class MyElement extends LitElement {
     super();
     this.tweets = loadFromStorage();
     this.postCount = this.tweets.length;
-    clearStorage();
+    
   }
+  
+  
 
   nameInput(event){
     const name = event.target.value
-    this.name = name;
-    console.log(name)
+    this.tweets.name = name
   }
-  
   postInput(event){
     const post = event.target.value
-    this.post = post;
-    console.log(post)
+    this.tweets.post = post
   }
 
+
+
   postTweet(){
-    this.postCount++;
-    
-    this.tweet = {
-      name: this.name,
-      post: this.post
-    }
-    this.tweets.push(this.tweet)
-    this.tweets = [...this.tweets]
-    console.log(this.tweets)
-    saveToStorage();
+    check()
+      .then((response)=> alert( response))
+      .catch((error)=> alert(error))
+    this.tweets = [...this.tweets, {...this.tweets}]
+    this.postCount = this.tweets.length
+    saveToStorage(this.tweets);
   }
 
   DeleteTweet(index){
@@ -144,5 +141,6 @@ export class MyElement extends LitElement {
   }
 
 }
+
 
 window.customElements.define('my-element', MyElement);
